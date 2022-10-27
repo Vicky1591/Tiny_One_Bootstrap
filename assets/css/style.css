@@ -1,0 +1,235 @@
+*{
+	padding : 0px;
+	margin : 0px;
+	/* box-sizing : border-box; */
+	line-height : 1.5;
+}
+
+
+.header{
+	background-color : #fcdb00;
+	padding : 60px 0 106px;
+}
+	
+header .navbar-default {
+    background: none;
+	border : none;
+	box-shadow : none;
+	margin-bottom : 65px;
+}
+
+.header .navbar-brand {
+    padding: 0px;
+}
+
+.header .navbar-default .navbar-right a {
+    color: #777;
+    margin-left: 45px;
+    color: #010101;
+    font-size: 22px;
+	font-weight : 500px;
+    text-transform: capitalize;
+}
+
+
+/* .header .inspire h2{ */
+	/* color : #010101; */
+	/* font-size : 32px; */
+	/* font-weight : 500; */
+	/* margin : 0 0 20px 0; */
+	/* padding-top : 75px; */
+/* } */
+
+.header .inspire h3{
+	font-size : 20px;
+	color : #313841;
+	margin-bottom : 25px;
+}
+
+
+.header .inspire p{
+	font-size : 16px;
+	color : #555;
+	margin-bottom : 40px;
+}
+
+.header .header-list li{
+	display : inline-block;
+	margin-right : 40px;
+	/* font-size : 42px; */
+}
+
+.header .header-list a i{
+	font-size : 42px;
+	color : #010101;
+}
+
+
+.header .ipad-section{
+	margin-left : 18%;;
+}
+
+
+/* =======================================Header section End======================================= */
+
+
+
+/* =======================================feature section Start======================================= */
+
+
+.features-section{
+	padding : 115px 0 90px;
+}
+
+
+.features-section .features-info h2{
+	padding-top : 0px;
+}
+
+.features-section .thumnail-info h3{
+	margin: 0 0 14px 0; 
+	color : #010101;
+	font-size : 22px;
+	font-weight : 400;
+	
+}
+
+.figure-thumbnail{
+	margin-bottom : 80px;
+}
+
+
+.figure-thumbnail i{
+	font-size : 50px;
+	color : #010101;
+}
+
+.features-info h3{
+	margin-bottom : 95px;
+}
+
+.thumnail-info p{
+	font-size : 16px;
+	color : #898989;
+}
+
+/* .thumnail-info h3{ */
+	/* color : #010101; */
+	/* font-size : 22px; */
+	/* font-weight : 400; */
+/* } */
+
+/* =======================================Feature section End======================================= */
+
+
+
+/* =======================================footer section Start======================================= */
+
+
+
+
+.footer{
+	padding : 90px 0 135px;
+	background : #010101;
+}
+
+.footer .foot-heading h2{
+	color : #fadb00;
+	padding-top : 0px;
+	font-weight : 500;
+}
+
+.footer .foot-heading h3{
+	color : #898989;
+	margin-bottom : 40px;
+	padding : 0 30px;
+}
+
+.footer .contact-form {
+	padding : 0 70px;
+}
+
+
+.contact-form .submit{
+	background : #fcdb00;
+	border : 1px solid #fcdb00;
+	text-transform : uppercase;
+	color : #010101;
+	font-weight : 400;
+	transition : all .3s ease-in-out;
+	
+}
+
+
+.contact-form .submit:hover{
+	color : #fcdb00;
+	background : #010101;
+}
+.footer .social-list{
+	padding-top : 80px;
+	margin : 0 0 130px 0;
+}
+
+.footer .social-list li{
+	display : inline-block;
+	margin-right : 30px;
+}
+
+.footer .social-list a i{
+	font-size : 42px;
+	color : #fcdb00;
+	
+}
+
+.footer .footer-link .address{
+	width : 70%;
+}
+
+.footer .footer-link li, .footer .footer-link a{
+	color : #fff;
+	font-size : 16px;	
+}
+
+
+
+@media all and (max-width:992px){
+	.header .navbar-default .navbar-toggle{
+    background: transparent;
+    border: none;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background: #010101;
+	}
+		.header .ipad-section{
+		margin-left : 10% 0 0;
+	}	
+	.header .navbar-default .navbar-collapse{
+		border : none;
+	}
+	.header .navbar-default .navbar-right a{
+		margin : 0px;
+		padding : 15px 15px 15px 0;
+	}
+	.heading-pri{
+		padding-top : 0px;
+	}
+	img.ipad-img {
+		margin-top : 20px;
+		margin-bottom : -70px;
+    margin-left: -70px;
+	}
+	
+	.features-section h2.heading-pri {
+    margin-top: 20px;
+	}
+	.figure-thumbnail {
+    margin-bottom: 15px;
+	}
+	.footer .social-list{
+		padding-top : 40px;
+		margin-bottom : 80px;
+	}
+	.footer .contact-form{
+		padding : 0px;
+	}
+	}
